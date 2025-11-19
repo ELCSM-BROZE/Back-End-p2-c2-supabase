@@ -1,2 +1,4 @@
 Django
+python-dontenv
 gunicorn
+psycopg2
