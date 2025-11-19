@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'inventario',
     'django',
-    'gunicorn'
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +133,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+ALLOWED_HOSTS = ['https://back-end-p2-c2-supabase.onrender.com/']
